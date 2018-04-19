@@ -21,6 +21,6 @@ const mapStateToProps = (state) => {
   return {
     expenses: selectExpenses(state.expenses, state.filters)
   };
-}
+};
 
 export default connect(mapStateToProps)(ExpenseList);
